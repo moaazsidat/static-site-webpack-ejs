@@ -3,6 +3,24 @@
 Experimental repo for using .ejs templates to generate a static site using webpack's `html-webpack-plugin`. Since `html-webpack-plugin` requires you to
 declare a variable for each file, wrote a wrapper (`config/transformEjs.js`) around it to avoid having to do that.
 
+
+Current `build/` structure:
+```
+.
+├── about.html
+├── asset-manifest.json
+├── favicon.ico
+├── index.html
+├── nav.html
+└── static
+    ├── css
+    │   ├── main.65027555.css
+    │   └── main.65027555.css.map
+    └── js
+        ├── main.59760856.js
+        └── main.59760856.js.map
+```
+
 --
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
