@@ -1,7 +1,7 @@
 # static-site-webpack-ejs
 
 Experimental repo for using .ejs templates to generate a static site using webpack's `html-webpack-plugin`. Since `html-webpack-plugin` requires you to
-declare a variable for each file, a wrapper around it to avoid having to do that. 
+declare a variable for each file, wrote a wrapper (`config/transforEjs.js`) around it to avoid having to do that.
 
 --
 
