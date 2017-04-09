@@ -28,3 +28,6 @@ Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 ## Todo
+- [ ] Cleanup wrapper code
+- [ ] Cleanup repo
+- [ ] Which templates should be generated as pages, and which one are ignored from the static build
